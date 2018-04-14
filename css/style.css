@@ -134,6 +134,14 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 }
 /*--//top-nav--*/
 /*--about--*/
+
+    .work-info li{
+    color:#999;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-indent: -2em;
+        text-align: -webkit-auto;
+    }
 .about,.work,.education,.skills,.portfolio,.contact{
 	padding:6em 0;
 }
@@ -175,15 +183,25 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #000;
+    background: url(../images/b4.png)repeat;
 }
 .work-left {
     text-align: right;
-    padding: 3em 5em 0 0;
+    padding: 3em 4.5em 0 2em;
+    margin-right: 0px;
 }
 .work-right {
+    min-height: 300px;
     border-left: 1px solid #999;
-    padding: 2.5em 0 2em 6em;
+    padding: 2.5em 0 2em 4.5em;
+}
+.work-info h3 {
+    font-size: 1em;
+    /* padding-left: 0px; */
+    left: -0.8em;
+    top: -8px;
+    position: relative;
+    color: #008b8b;
 }
 .work-info h4 {
     font-size: 1.2em;
@@ -208,8 +226,9 @@ p {
 .work-info h5 {
     font-size: 1.3em;
     color: #F7E612;
-    margin-bottom: .5em;
-    border: 1px solid #F7E612;
+    font-weight: bolder;
+    margin-bottom: 0em;
+    border: 1px solid rgba(247, 230, 18, 0);
     display: inline-block;
     padding: 0 1.2em;
 }
@@ -231,16 +250,16 @@ p {
     -ms-transform: scale(1);
 }
 .work-right h5 span.glyphicon {
-    margin-right: 5em;
-    margin-left: -8em;
+    margin-right: 1.5em;
+    margin-left: -6.8em;
 }
 .work-left2 h5 span.glyphicon {
-    margin-left: 4em;
-    margin-right: -7.3em;
+    margin-left: 2em;
+    margin-right: -6.7em;
     z-index: 9;
 }
 .work-right.work-right2 {
-    min-height: 210px;
+    min-height: 300px;
     float: right;
 }
 .work-right.work-right2 h4:before {
@@ -271,7 +290,7 @@ p {
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#fff;
+	background:url(../images/b5.jpg)repeat;
 }
 .bar-grids {
     padding: 0 4em;
@@ -1097,5 +1116,20 @@ h3.title {
     font-size: 0.9em;
 }
 
+}
+
+.img-company-left{
+    width: 50%;
+    margin-top: 3%;
+    display: inline-block;
+    margin-left: 25%;
+    float: right;
+}
+.img-company-right{
+    width: 50%;
+    margin-top: 3%;
+    display: inline-block;
+    margin-right: 25%;
+    float: left;
 }
 /*--//responsive-design---*/
